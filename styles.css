@@ -8,14 +8,33 @@ a.active {
 #sidebar {
   width: 250px;
   float: right;
-  background: pink;
+  background: tan;
+  border: black;
   margin: 20px;
   padding: 10px;
+  padding:1px;
+   border:1px solid #021a40;
 }
 img {
   float: left;
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#ff0;
 }
-.poem {
-  background: pink;
+
+table {
+  background: tan;
+    position: absolute;
+    left: 500px;
+    top: 850px;;
 }
+tr:hover {
+  background-color: #f5f5f5;
+}
+table, th, td {
+   border: 1px solid black;
+}
+
+
+
 
